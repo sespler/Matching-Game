@@ -1,0 +1,48 @@
+body {
+	background: #303030;
+	font-family: "Arial";
+	margin: 0;
+}
+h1 {
+	margin: 0;
+	padding: 20px;
+	transition: all 0.7s;
+}
+h3 {
+	margin: 0;
+	background: #105b70;
+	padding: 10px;
+	transition: all 0.7s;
+}
+.tile {
+	width: 45%;
+	padding-bottom: 45%;
+	margin: 2.5%;
+	float: left;
+	background: #ba9e2e;
+	transition: all 0.7s;
+	border-radius: 10%;
+}
+#board {
+	max-width: 300px;
+	margin: 40px auto;
+}
+#band {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	background: #3999a8;
+	height: 100%;
+}
+
+.match1 {
+	background: rgb(87, 182, 54);
+}
+
+.match2 {
+	background: rgb(33, 183, 164);
+}
+
+.won {
+	background: #303030;
+}
